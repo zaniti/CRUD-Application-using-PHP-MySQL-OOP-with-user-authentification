@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Zniti Blog</title>
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
@@ -63,7 +64,7 @@ session_start();
 if (isset($_POST['username'])){
 
     $user = new USER();
-
+//zniti
   $user->username = stripslashes($_REQUEST['username']);
   $user->username = mysqli_real_escape_string($conn, $user->username);
   $user->password = stripslashes($_REQUEST['password']);

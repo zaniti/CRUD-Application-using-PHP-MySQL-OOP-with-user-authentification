@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Zniti Blog</title>
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
@@ -58,7 +59,7 @@
         if(!isset($_SESSION["username"])){
 
           echo '<a href="login.php">Sign in</a>';
-
+//zniti
         }else {
           echo '<a href="logout.php">Sign out</a>';
         }

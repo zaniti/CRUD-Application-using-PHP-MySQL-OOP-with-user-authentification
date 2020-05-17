@@ -7,6 +7,7 @@
 <html>
   <head>
   <!-- Font Awesome -->
+  <title>Zniti Blog</title>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
@@ -69,7 +70,7 @@
 
  require('config.php');
  require('class.php');
-
+//zniti
 
  $sql = "SELECT post.*, user.username FROM post JOIN user ON post.id_user = user.id";
 $result = $conn->query($sql);
@@ -90,4 +91,4 @@ if ($result->num_rows > 0) {
 
 
   </body>
-</html> 
+</html>

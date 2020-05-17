@@ -12,7 +12,7 @@ Go to http://localhost/phpmyadmin/server_import.php -> choose file path to impor
 > php -S localhost:8080
 ```
 
-#### 4. Type http://localhost:8080/ in your browser to acces the Application
+#### 3. Type http://localhost:8080/ in your browser to acces the Application
 
 
 > For exclusive content https://www.patreon.com/zniti

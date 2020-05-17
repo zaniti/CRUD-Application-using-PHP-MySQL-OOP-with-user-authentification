@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Zniti Blog</title>
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
@@ -67,7 +68,7 @@ require('class.php');
 if (isset($_REQUEST['username'], $_REQUEST['email'], $_REQUEST['password'])){
 
     $user = new USER();
-
+//zniti
   // récupérer le nom d'utilisateur et supprimer les antislashes ajoutés par le formulaire
   $user->username = stripslashes($_REQUEST['username']);
   $user->username = mysqli_real_escape_string($conn, $user->username);

@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Zniti Blog</title>
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
@@ -98,7 +99,7 @@
           $text = mysqli_real_escape_string($conn, htmlspecialchars($_POST['text']));
 
           //CHECK EMAIL IS VALID OR NOT
-
+          //zniti
               $id = $_GET['id'];
 
 

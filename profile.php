@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Zniti Blog</title>
   <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
@@ -89,7 +90,7 @@ if ($result->num_rows > 0) {
 } else {
  echo "<p class='noposts'>No posts yet ! <a href='addpost.php'> Click here</a> to add a new post </p>";
 }
-
+//zniti
 if (isset($_GET['del'])) {
     $id = $_GET['del'];
     $sqldel = "DELETE FROM post WHERE id=$id";
